@@ -1,0 +1,34 @@
+
+.grid-container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    gap: 10px;
+  }
+
+  .grid-item {
+    background-color: #EFEFEFEF;
+    color: cornflowerblue;
+    margin-bottom: 5rem;
+    
+  }
+
+  .grid-item img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-item-name {
+    float: left;
+    padding-left: .5rem;
+  }
+
+  .grid-item-price {
+    float: right;
+    padding-right: .5rem;
+  }
+
+  .add-to-cart {
+    color: cornflowerblue;
+    width: 100%;
+  }

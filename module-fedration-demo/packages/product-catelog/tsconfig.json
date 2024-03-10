@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "CommonJS",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "paths": {
+      "@*": [
+        "./packages*",
+        "./build/transpiled*"
+      ],
+      "@Icons": [
+        "./packages/styles/Icons",
+      ]
+    }
+  },
+  "include": ["packages"],
+  "exclude": [
+    "node_modules", "webpack"
+  ]
+}
